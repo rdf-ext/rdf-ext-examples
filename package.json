@@ -1,0 +1,45 @@
+{
+  "name": "rdf-ext-examples",
+  "private": true,
+  "version": "0.0.0",
+  "description": "RDF-Ext examples workspace",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-browser-fetch-resource",
+    "build-browser": "webpack ./examples/browser/$EXAMPLE.js --output-filename=$EXAMPLE.js --mode=development",
+    "build-browser-fetch-resource": "EXAMPLE=fetch-resource npm run build-browser",
+    "test": "stricter-standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rdf-ext/rdf-ext-examples.git"
+  },
+  "keywords": [
+    "example",
+    "examples",
+    "rdf",
+    "rdfjs",
+    "rdf-ext"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdf-ext/rdf-ext-examples/issues"
+  },
+  "homepage": "https://github.com/rdf-ext/rdf-ext-examples",
+  "dependencies": {
+    "@rdfjs/formats-common": "^2.2.0",
+    "express": "^4.17.2",
+    "housemd": "^0.1.0",
+    "rdf-ext": "^2.0.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "readable-stream": "^3.6.0",
+    "stricter-standard": "^0.2.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
