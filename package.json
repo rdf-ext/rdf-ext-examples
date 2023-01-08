@@ -29,17 +29,14 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-ext-examples",
   "dependencies": {
-    "@rdfjs/formats-common": "^2.2.0",
-    "express": "^4.17.2",
+    "@rdfjs/formats-common": "^3.1.0",
+    "express": "^4.18.2",
     "housemd": "^0.1.0",
-    "rdf-ext": "^2.0.0"
+    "rdf-ext": "^2.1.0"
   },
   "devDependencies": {
-    "buffer": "^6.0.3",
-    "process": "^0.11.10",
-    "readable-stream": "^3.6.0",
     "stricter-standard": "^0.2.0",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
