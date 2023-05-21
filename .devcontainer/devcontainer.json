@@ -2,6 +2,6 @@
   "name": "Node.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
   "forwardPorts": [8080],
-  "postCreateCommand": "npm ci && npm run build",
+  "postCreateCommand": "npm ci",
   "remoteUser": "node"
 }

@@ -6,9 +6,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build-browser-fetch-resource",
-    "build-browser": "webpack ./examples/browser/$EXAMPLE.js --output-filename=$EXAMPLE.js --mode=development",
-    "build-browser-fetch-resource": "EXAMPLE=fetch-resource npm run build-browser",
+    "build": "vite build --outDir=../../dist examples/browser",
+    "dev": "vite dev examples/browser",
     "test": "stricter-standard"
   },
   "repository": {
@@ -30,13 +29,11 @@
   "homepage": "https://github.com/rdf-ext/rdf-ext-examples",
   "dependencies": {
     "@rdfjs/formats-common": "^3.1.0",
-    "express": "^4.18.2",
     "housemd": "^0.1.0",
-    "rdf-ext": "^2.1.0"
+    "rdf-ext": "^2.2.0"
   },
   "devDependencies": {
     "stricter-standard": "^0.2.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "vite": "^4.3.8"
   }
 }
