@@ -1,14 +1,16 @@
 {
   "version": "0.2.0",
   "configurations": [{
+    "name": "Run browser examples",
     "type": "node",
     "request": "launch",
-    "name": "Start server",
-    "program": "${workspaceFolder}/server.js"
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run", "dev"]
   }, {
+    "name": "Run housemd-dataset.js",
     "type": "node",
     "request": "launch",
-    "name": "Run housemd-dataset.js",
     "program": "${workspaceFolder}/examples/node/housemd-dataset.js"
   }]
 }
