@@ -8,6 +8,31 @@
     "runtimeExecutable": "npm",
     "runtimeArgs": ["run", "dev"]
   }, {
+    "name": "Run rdfjs-basics.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/rdfjs-basics.js"
+  }, {
+    "name": "Run rdfjs-namespace.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/rdfjs-namespace.js"
+  }, {
+    "name": "Run grapoi-traverse.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/grapoi-traverse.js"
+  }, {
+    "name": "Run grapoi-path.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/grapoi-path.js"
+  }, {
+    "name": "Run grapoi-create.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/grapoi-create.js"
+  }, {
     "name": "Run housemd-dataset.js",
     "type": "node",
     "request": "launch",

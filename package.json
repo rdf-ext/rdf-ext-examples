@@ -29,8 +29,8 @@
   "homepage": "https://github.com/rdf-ext/rdf-ext-examples",
   "dependencies": {
     "@rdfjs/formats-common": "^3.1.0",
-    "housemd": "^0.1.0",
-    "rdf-ext": "^2.2.0"
+    "housemd": "^0.1.2",
+    "rdf-ext": "^2.3.0"
   },
   "devDependencies": {
     "stricter-standard": "^0.2.0",
