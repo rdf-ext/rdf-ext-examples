@@ -1,7 +1,7 @@
 {
   "name": "rdf-ext-examples",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "RDF-Ext examples workspace",
   "type": "module",
   "main": "index.js",
