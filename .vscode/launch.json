@@ -18,6 +18,11 @@
     "request": "launch",
     "program": "${workspaceFolder}/examples/node/rdfjs-namespace.js"
   }, {
+    "name": "Run io-dataset.js",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceFolder}/examples/node/io-dataset.js"
+  }, {
     "name": "Run grapoi-traverse.js",
     "type": "node",
     "request": "launch",

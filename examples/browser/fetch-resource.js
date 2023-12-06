@@ -1,10 +1,6 @@
-import formats from '@rdfjs/formats-common'
 import rdf from 'rdf-ext'
 
 async function fetchResource () {
-  // import parsers and serializers from @rdfjs/formats-common
-  rdf.formats.import(formats)
-
   // make a GET request to the Gregory House resource of the housemd dataset
   const res = await rdf.fetch('https://housemd.rdf-ext.org/person/gregory-house')
 

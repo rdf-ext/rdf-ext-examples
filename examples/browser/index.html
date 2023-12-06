@@ -5,25 +5,37 @@
   <body>
     <div class="container">
       <div class="row">
+        <h2>I/O read from URL</h2>
+        <form>
+          <button id="io-dataset-run" class="btn btn-primary">read dataset</button>
+          <div class="mb-3">
+            <label class="form-label">Turtle</label>
+            <textarea id="io-dataset-turtle" class="form-control" rows="10" readonly></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="row">
         <h2>Fetch Resource</h2>
         <form>
-            <button id="fetch-resource-run" class="btn btn-primary">fetch resource</button>
-            <div class="mb-3">
-              <label class="form-label">Status</label>
-              <input id="fetch-resource-status" type="text" class="form-control" readonly>
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Content-Type</label>
-              <input id="fetch-resource-content-type" type="text" class="form-control" readonly>
-              </div>
-            <div class="mb-3">
-              <label class="form-label">N-Triples</label>
-              <textarea id="fetch-resource-ntriples" class="form-control" rows="10" readonly></textarea>
-            </div>
+          <button id="fetch-resource-run" class="btn btn-primary">fetch resource</button>
+          <div class="mb-3">
+            <label class="form-label">Status</label>
+            <input id="fetch-resource-status" type="text" class="form-control" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Content-Type</label>
+            <input id="fetch-resource-content-type" type="text" class="form-control" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">N-Triples</label>
+            <textarea id="fetch-resource-ntriples" class="form-control" rows="10" readonly></textarea>
+          </div>
         </form>
       </div>
     </div>
 
     <script type="module" src="fetch-resource.js"></script>
+    <script type="module" src="io-dataset.js"></script>
   </body>
 </html>
